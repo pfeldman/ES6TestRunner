@@ -1,9 +1,13 @@
 {
-  "name": "es6-test-runner",
-  "version": "0.0.1",
-  "author": "Pablo Feldman <pablofeldman90@gmail.com>",
-  "repository": "https://github.com/pfeldman/ES6TestRunner.git",
-  "scripts": {
-    "preinstall": "npm i -g coffee-script karma jasmine-core karma-jasmine requirejs@2.1 karma-requirejs phantomjs karma-phantomjs-launcher karma-chrome-launcher babel babel-cli --save-dev"
-  }
+    "name": "es6-test-runner",
+    "version": "0.0.1",
+    "author": "Pablo Feldman <pablofeldman90@gmail.com>",
+    "repository": "https://github.com/pfeldman/ES6TestRunner.git",
+    "scripts": {
+        "preinstall": "npm i -g coffee-script karma jasmine-core karma-jasmine requirejs@2.1 karma-requirejs phantomjs karma-phantomjs-launcher karma-chrome-launcher babel babel-cli babel-core babel-loader webpack --save-dev"
+    },
+    "dependencies": {
+        "karma-babel-preprocessor": "latest",
+        "babel-preset-es2015": "latest"
+    }
 }
