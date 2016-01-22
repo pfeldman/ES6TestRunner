@@ -19,8 +19,9 @@ karma start my.conf.js
 
 By default, this package is configured to transcript from ES6 and ES7. If you need from some other language please [check all available by `babel`](https://babeljs.io/docs/plugins/) install them by `npm install babel-preset-<preset-name>`. Update `.babelrc` file to set the new preset.
 
-* **Test and Source folder: ** Edit `karma.conf.js` file and set the path of your files you want to process inside `preprocessors` and `files`.
-* **Browser: ** By default this uses PhantomJS Browser for tests, if you want to use Google Chrome, please update `browsers` in `karma.conf.js`
+* __Test and Source folder:__ Edit `karma.conf.js` file and set the path of your files you want to process inside `preprocessors` and `files`.
+* __Browser:__ By default this uses PhantomJS Browser for tests, if you want to use Google Chrome, please update `browsers` in `karma.conf.js`
+
 ---
 
 ##### How to run this?
