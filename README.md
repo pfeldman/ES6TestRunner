@@ -2,8 +2,7 @@
 
 ##### What is this?
 
-This is a simple watch configuration for Karma. This transcript from ES6/ES7 to ES5 in order to run jasmine tests when any line in `src` or `tests` files is changed
-karma start my.conf.js
+This is a simple watch configuration for Karma. This transcript from ES6/ES7 to ES5 in order to run jasmine tests when any line in `src` or `tests` files is changed.
 
 ---
 
