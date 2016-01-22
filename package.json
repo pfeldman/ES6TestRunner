@@ -1,12 +1,27 @@
 {
     "name": "es6-test-runner",
+    "description": "A Karma watcher to run ES6 tests",
     "version": "0.0.1",
-    "author": "Pablo Feldman <pablofeldman90@gmail.com>",
+    "author": "Pablo Feldman <pablo.feldman90@globant.com>",
     "repository": "https://github.com/pfeldman/ES6TestRunner.git",
     "scripts": {
-        "preinstall": "npm i -g coffee-script karma jasmine-core karma-jasmine requirejs@2.1 karma-requirejs phantomjs karma-phantomjs-launcher karma-chrome-launcher babel babel-cli babel-core babel-loader webpack karma-babel-preprocessor --save-dev"
+        "preinstall": "npm i -g coffee-script karma-cli --save-dev"
     },
     "dependencies": {
+        "karma": "latest",
+        "karma-cli": "latest",
+        "jasmine-core": "latest",
+        "karma-jasmine": "latest",
+        "requirejs": "2.1",
+        "karma-requirejs": "latest",
+        "phantomjs": "latest",
+        "karma-phantomjs-launcher": "latest",
+        "karma-chrome-launcher": "latest",
+        "babel": "latest",
+        "babel-cli": "latest",
+        "babel-core": "latest",
+        "babel-loader": "latest",
+        "webpack": "latest",
         "karma-babel-preprocessor": "latest",
         "babel-preset-es2015": "latest"
     }
