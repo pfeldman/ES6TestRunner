@@ -1,6 +1,6 @@
 {
     "name": "es6-test-runner",
-    "description": "A Karma watcher to run ES6 tests",
+    "description": "A Karma watcher to run ES6/ES5 tests",
     "version": "0.0.1",
     "author": "Pablo Feldman <pablo.feldman90@globant.com>",
     "repository": "https://github.com/pfeldman/ES6TestRunner.git",
@@ -16,7 +16,6 @@
         "karma-requirejs": "latest",
         "phantomjs": "latest",
         "karma-phantomjs-launcher": "latest",
-        "karma-chrome-launcher": "latest",
         "babel": "latest",
         "babel-cli": "latest",
         "babel-core": "latest",
